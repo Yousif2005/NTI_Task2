@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/*Header*/
+.hero {
+   background-image: url(https://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg);
+  background-position: center center ;
+  opacity: 1;
+  color: #fff;
+  min-height: 90vh;
+  padding: 40px 40px;
+}
+
+.navbar {
+     position: absolute;
+  top: 50px;    
+  right: 150px;  
+}
+
+
+
+.logo {
+  
+  width: 250px;
+  height: 250px;
+  object-fit: contain; 
+
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  font-size: 15px;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 700px;
+  margin: auto auto auto auto;
+}
+
+.welcome {
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 14px 30px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.btn-solid {
+  background-color: #b18a4e;
+  color: #fff;
+}
+
+.btn-outline {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/*Who We Are*/
+.who-we-are {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.who-we-are .img-box {
+  flex: 1;
+}
+
+.who-we-are .text-box {
+  flex: 1;
+}
+
+.who-we-are h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.who-we-are p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.checklist li {
+  padding: 8px 0;
+  color: #444;
+}
+
+/*Our Location*/
+.location {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  padding: 80px 60px;
+  background-color: #f7f6f4;
+}
+
+.location .text-box,
+.location .img-box {
+  flex: 1;
+}
+
+.location h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.location p {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+/*Our Baking*/
+.baking {
+  text-align: center;
+  padding: 80px 60px;
+}
+
+.baking h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.section-sub {
+  color: #777;
+  margin-bottom: 50px;
+}
+
+.baking-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  flex: 1;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin: 20px 0 10px 0;
+}
+
+.card p {
+  color: #777;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+/*Contact*/
+.contact {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  padding: 80px 60px;
+  background-color: #f7f6f4;
+}
+
+.contact .text-box,
+.contact .img-box {
+  flex: 1;
+}
+
+.contact h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.details-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-list li {
+  padding: 6px 0;
+  color: #444;
+}
+
+/*Footer*/
+.footer {
+  background-color: #3a332e;
+  color: #ccc;
+  padding: 60px 60px 20px 60px;
+  
+}
+
+.footer-columns {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+.footer-col h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-col p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  
+}
+
+.footer-col li {
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #4d453f;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.footer-logo {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-links a {
+  border: 1px solid #666;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+/*Responsive*/
+@media (max-width: 900px) {
+  .who-we-are,
+  .location,
+  .contact {
+    flex-direction: column;
+  }
+
+  .baking-cards {
+    flex-direction: column;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
